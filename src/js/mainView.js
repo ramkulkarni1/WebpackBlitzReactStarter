@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/app.less';
+import homeImage from '../html/home.png';
 
 export default class MainView extends React.Component {
 	constructor(props) {
@@ -20,7 +21,9 @@ export default class MainView extends React.Component {
 			Hello {this.state.name} !
 			<p/>
             Enter Name : <input type="text" ref="nameTxt" />
-            <button type="button" onClick={this.onSetName}>Set Name</button>			
+            <button type="button" onClick={this.onSetName}>Set Name</button>
+            <p/>
+            <img src={homeImage}/> - Example of loaging image with webpack image loader
 		</div>
 	}
 }
