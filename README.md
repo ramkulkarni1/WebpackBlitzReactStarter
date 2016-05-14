@@ -18,3 +18,4 @@ OR using Gulp
 
 Note that when using webpack-dev-server files are served from memory and no files are genereated in the build folder.
   
+See [Setting up Webpack + Babel + ReactJS] (http://ramkulkarni.com/blog/setting-up-webpack-babel-reactjs/)
