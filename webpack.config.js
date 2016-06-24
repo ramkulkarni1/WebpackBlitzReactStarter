@@ -16,9 +16,6 @@ var config = {
 	context : path.join(__dirname, 'src'),
 	entry :[
 		'./js/index.js',
-		//include following entries only if you want to use webpack-dev-server and its hot module replacement feature
-		'webpack-dev-server/client?http://localhost:' + serverPort + '/',
-		'webpack/hot/dev-server'
 	],
 	output : {
 		path : outputPath,
@@ -65,8 +62,6 @@ var config = {
 		new copyWebpackPlugin([
 			{from : 'html', to: __dirname + '/build'},
 		]),
-		//include following plugin only if you want to use webpack-dev-server and its hot module replacement feature
-  		new webpack.HotModuleReplacementPlugin()
   	],
   	serverPort : serverPort
 };
