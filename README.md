@@ -1,5 +1,5 @@
 # Webpack starter project
-This is a simple starter Web project using Webpack, Blitz and ReactJS. Optionally it also shows how to use Webpack APIs in Gulp.
+This is a simple starter Web project using Webpack, Babel and ReactJS. Optionally it also shows how to use Webpack APIs in Gulp.
 
 To install app dependencies - 
   1. npm install
