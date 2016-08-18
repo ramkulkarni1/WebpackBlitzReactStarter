@@ -1,7 +1,7 @@
 {
   "name": "WebpackBlitzReactStarter",
   "version": "1.0.0",
-  "description": "Starter Web project using Webpack, Blitz and ReactJS",
+  "description": "Starter Web project using Webpack, Babel and ReactJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
